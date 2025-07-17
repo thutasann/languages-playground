@@ -1,6 +1,6 @@
 // @ts-check
 
-const Semaphore = require('../semaphore/semaphore')
+const Semaphore = require('../semaphore')
 
 class Mutex {
   constructor() {

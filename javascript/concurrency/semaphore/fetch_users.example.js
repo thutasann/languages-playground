@@ -1,6 +1,6 @@
 // @ts-check
 
-const Semaphore = require('./semaphore')
+const Semaphore = require('.')
 
 const apiSemaphore = new Semaphore(3)
 

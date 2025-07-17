@@ -1,6 +1,6 @@
 // @ts-check
 
-const Mutex = require('./mutex')
+const Mutex = require('.')
 const fs = require('fs')
 
 const fileMutex = new Mutex()
